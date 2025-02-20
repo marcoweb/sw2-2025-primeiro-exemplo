@@ -1,4 +1,15 @@
-GET https://fantastic-couscous-4qjrr56x7x3j5-3000.app.github.dev/api/tarefas
+@url = https://fantastic-couscous-4qjrr56x7x3j5-3000.app.github.dev/api/tarefas
+
+GET {{url}}
 
 ###
-POST https://fantastic-couscous-4qjrr56x7x3j5-3000.app.github.dev/api/tarefas
+POST {{url}}
+Content-Type: application/json
+    
+{
+    "id" : 10,
+    "title" : "Executar Aplicação"
+}
+
+###
+GET {{url}}/2

@@ -1,0 +1,4 @@
+GET https://fantastic-couscous-4qjrr56x7x3j5-3000.app.github.dev/api/tarefas
+
+###
+POST https://fantastic-couscous-4qjrr56x7x3j5-3000.app.github.dev/api/tarefas
